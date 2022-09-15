@@ -1,0 +1,1 @@
+export const asyncPause = (miliss: number) => new Promise<void>(resolve => setTimeout(resolve, miliss));
